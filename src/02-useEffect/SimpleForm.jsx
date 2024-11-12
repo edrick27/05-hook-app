@@ -21,18 +21,18 @@ export const SimpleForm = () => {
     }
 
 
-    useEffect(() => {
-        // este callback se llama cada vez se renderiza el componente
-        // console.log('##### useEffect #####')
-    }, [])
+    // useEffect(() => {
+    //     // este callback se llama cada vez se renderiza el componente
+    //     console.log('##### useEffect #####')
+    // }, [])
 
-    useEffect(() => {
-        // console.log('formstate change!!')
-    }, [formState])
+    // useEffect(() => {
+    //     // console.log('formstate change!!')
+    // }, [formState])
 
-    useEffect(() => {
-        // console.log('email change!!')
-    }, [email])
+    // useEffect(() => {
+    //     console.log('email change!!')
+    // }, [email])
     
 
 
